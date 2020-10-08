@@ -1,0 +1,5 @@
+mutation authenticateAndCreateUserYoutubeChannels($input: UserYoutubeAuthenticationInput!) {
+  authenticateAndCreateUserYoutubeChannels(input: $input) { 
+    id
+  }
+}

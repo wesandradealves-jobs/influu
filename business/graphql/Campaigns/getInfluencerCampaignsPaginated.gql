@@ -1,0 +1,60 @@
+query getInfluencerCampaignsPaginated($input: GetInfluencerCampaignsPaginatedInputType!) {
+  getInfluencerCampaignsPaginated(input: $input) { 
+    total
+    pages
+    data {
+      id
+      status
+      value
+      campaign {
+        id
+        name
+        begin
+        end
+        status
+        value
+        rightUse
+        exclusivity
+        company {
+          id
+          name
+        }
+        deliveries {
+          delivery {
+            id
+            name
+            deliveryGroup {
+              name
+            }
+          }
+          campaignDeliveryInfo {
+            id
+            deliveryDate
+            description
+            clickViewsMeta
+            attachments {
+              attachment {
+                id
+                url
+                filename
+              }
+            }
+            influencersApproved {
+              id
+              status
+              rejectionReason
+              attachments {
+                status
+                attachment {
+                  id
+                  filename
+                  url
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

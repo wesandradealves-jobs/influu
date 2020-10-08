@@ -1,0 +1,16 @@
+query myNotificationsPaginated(
+  $input: GetUserNotificationsPaginatedInputType!
+) {
+  myNotificationsPaginated(input: $input) {
+    data {
+      id
+      title
+      content
+      createdAt
+      deletedAt
+      chatChannel {
+        id
+      }
+    }
+  }
+}

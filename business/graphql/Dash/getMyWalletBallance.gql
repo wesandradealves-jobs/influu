@@ -1,0 +1,7 @@
+query getMyWalletBallance {
+  getMyWalletBallance {
+    ballance
+    credit
+    debit
+  }
+}

@@ -1,0 +1,5 @@
+mutation createTagUser($input: UserTagInput!) {
+  createTagUser(input: $input) {
+    id
+  }
+}

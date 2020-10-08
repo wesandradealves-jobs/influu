@@ -1,0 +1,36 @@
+query userSocialNetworks {
+  userSocialNetworks {
+    facebookPages {
+      id
+      facebookPageId
+      name
+      profileImage
+      fanCount
+      ratingCount
+    },
+    instagramPages {
+      id
+      instagramPageId
+      name
+      profileImage
+      likesCount
+      followersCount
+    },
+    youtubeChannels {
+      id
+      channelId
+      customUrl
+      name
+      viewCount
+      subscriberCount
+    },
+    twitterPages {
+      id
+      twitterPageId
+      name
+      profileImage
+      followerCount
+      friendsCount
+    }
+  }
+}

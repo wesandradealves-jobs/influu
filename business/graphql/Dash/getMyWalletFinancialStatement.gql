@@ -1,0 +1,25 @@
+query getMyWalletFinancialStatement {
+  getMyWalletFinancialStatement {
+    credits {
+      id
+      value
+      creditType
+      description
+      campaignInfluencer {
+        id
+        status
+        createdAt
+        updatedAt
+        deletedAt
+      }
+      createdAt
+    }
+    debits {
+      id
+      value
+      debitType
+      description
+      createdAt
+    }
+  }
+}

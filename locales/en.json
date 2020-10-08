@@ -1,0 +1,22 @@
+{
+  "menu": {
+    "dashboard": "Dashboard",
+    "notifications": "Notifications",
+    "campaigns": "Campaigns",
+    "profile": "Profile",
+    "financial": "Financial"
+  },
+  "links": {
+    "br": "Brazilian Version",
+    "en": "English Version"
+  },
+  "campaigns": {
+    "suggested": "Suggested campaigns"
+  },
+  "nav": {
+    "logout": "Logout"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

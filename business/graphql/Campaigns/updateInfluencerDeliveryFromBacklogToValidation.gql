@@ -1,0 +1,5 @@
+mutation updateInfluencerDeliveryFromBacklogToValidation($input: UpdateInfluencerDeliveryFromBacklogToValidationInput!) {
+  updateInfluencerDeliveryFromBacklogToValidation(input: $input) { 
+    id
+  }
+}

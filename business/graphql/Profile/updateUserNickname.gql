@@ -1,0 +1,3 @@
+mutation updateUserNickname($input: UpdateUserNickname!) {
+  updateUserNickname(input: $input)
+}

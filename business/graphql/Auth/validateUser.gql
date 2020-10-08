@@ -1,0 +1,3 @@
+mutation validateUser($input: ValidateUser!) {
+  validateUser(input: $input)
+}

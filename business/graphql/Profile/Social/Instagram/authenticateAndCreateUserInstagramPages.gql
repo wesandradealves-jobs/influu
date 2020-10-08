@@ -1,0 +1,5 @@
+mutation authenticateAndCreateUserInstagramPages($input: UserInstagramAuthenticationInput!) {
+  authenticateAndCreateUserInstagramPages(input: $input) { 
+    id
+  }
+}

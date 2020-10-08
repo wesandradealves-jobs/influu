@@ -1,0 +1,5 @@
+mutation createInfluencer($input: CreateInfluencerInput!) {
+  createInfluencer(input: $input) {
+    id
+  }
+}

@@ -1,0 +1,5 @@
+mutation deleteUserInstagramPage($instagramPageId: String!) {
+  deleteUserInstagramPage (instagramPageId: $instagramPageId) { 
+    deletedAt
+  }
+}

@@ -1,0 +1,21 @@
+query getCampaignsPaginated($input: GetCampaignsPaginatedInputType!) {
+  getCampaignsPaginated(input: $input) {
+    data {
+      id
+      name
+      end
+      briefings {
+        briefing {
+          id
+          filename
+          url
+        }
+      }
+      company {
+        id
+        image
+        name
+      }
+    }
+  }
+}

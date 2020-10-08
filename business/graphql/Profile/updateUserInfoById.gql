@@ -1,0 +1,5 @@
+mutation updateUserInfoById($input: UserInfoByIdInput!) {
+  updateUserInfoById(input: $input) {
+    nickname
+  }
+}

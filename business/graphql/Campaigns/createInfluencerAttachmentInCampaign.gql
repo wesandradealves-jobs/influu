@@ -1,0 +1,5 @@
+mutation createInfluencerAttachmentInCampaign($input: CreateInfluencerAttachmentInCampaignInput!) {
+  createInfluencerAttachmentInCampaign(input: $input) { 
+    id
+  }
+}

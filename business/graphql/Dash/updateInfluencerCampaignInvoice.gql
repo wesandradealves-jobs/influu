@@ -1,0 +1,14 @@
+mutation updateInfluencerCampaignInvoice($input: UpdateInfluencerCampaignInvoiceInput!) {
+  updateInfluencerCampaignInvoice(input: $input) {
+    id
+    status
+    invoice {
+    	id
+    	status
+    	attachment {
+    		filename
+    		url
+    	}
+    }
+  }
+}

@@ -1,0 +1,6 @@
+query getAllOAuthUrl {
+  getFacebookOAuthUrl
+  getInstagramOAuthUrl
+  getTwitterOAuthUrl
+  getYoutubeOAuthUrl
+}

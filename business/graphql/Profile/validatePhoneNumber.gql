@@ -1,0 +1,3 @@
+mutation validatePhoneNumber($input: ValidatePhoneInput!) {
+  validatePhoneNumber(input: $input)
+}

@@ -1,0 +1,251 @@
+.login {
+  position: relative;
+  background: #f5f6fd;
+}
+
+.logo {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(270deg, #6c327e 0%, #903b85 64.98%);
+  border-radius: 0px 0px 200px 0px;
+  overflow: hidden;
+}
+
+.logo::before {
+  content: "";
+  background-image: url("~assets/img/Bubbles.png");
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.075;
+  z-index: 1;
+}
+
+.logo img {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+.form {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+form {
+  transition: ease 0.2s;
+  position: relative;
+}
+
+form.loading > * {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+form .spinner {
+  position: absolute;
+  top: 71px;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  z-index: 100;
+  opacity: 0.6;
+}
+
+.form::before {
+  content: "";
+  background-image: url("~assets/img/bg-login.png");
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.ps-container {
+  height: 100vh;
+  z-index: 99999;
+  margin-right: -17px;  
+}
+
+.form .content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 2;
+  max-width: 420px;
+  padding: 0 15px;
+  height: 440px;
+  /*overflow: auto;*/
+}
+
+.form .titulo {
+  font-family: "nunitobold";
+  font-size: 56px;
+  line-height: 50px;
+  color: #393858;
+  margin-bottom: 20px;
+}
+
+.form .titulo span {
+  font-family: "nunitoregular";
+  font-size: 43px;
+  display: block;
+}
+
+.form .texto {
+  font-family: "nunitoregular";
+  font-size: 18px;
+  line-height: 21px;
+  color: #8a899b;
+}
+
+.form .texto span {
+  display: block;
+}
+
+.form form {
+  margin-top: 40px;
+}
+
+.form input {
+  border: 0;
+  outline: 0;
+  border-bottom: solid 2px #783681;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  height: 45px;
+  padding: 15px 0 0 0;
+  font-family: "nunitoregular";
+  font-size: 16px;
+  color: #393858;
+}
+
+.form input:focus + label,
+.form input:active + label,
+.form input:valid + label,
+.form input.valid + label {
+  font-size: 14px;
+  color: #8a899b;
+  top: -4px;
+}
+
+.form label {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  height: 100%;
+  font-family: "nunitoregular";
+  font-size: 16px;
+  color: #393858;
+  transition: ease 0.3s;
+  pointer-events: none;
+}
+
+.form .form-group {
+  position: relative;
+}
+
+.form .text-link {
+  font-family: "nunitoregular";
+  font-size: 14px;
+  line-height: 16px;
+  color: #393858;
+  margin-top: 15px;
+}
+
+.form button {
+  width: 85px;
+  height: 48px;
+  background: linear-gradient(78.69deg, #d94e96 3.07%, #d0458d 96.51%);
+  border-radius: 5px;
+  font-family: "nunitoregular";
+  font-size: 16px;
+  line-height: 48px;
+  color: #ffffff;
+  outline: none;
+  border: 0;
+  padding: 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.38);
+}
+
+.text-danger {
+  font-family: "nunitoregular";
+}
+
+.btn-reset {
+  position: absolute;
+  top: 17px;
+  right: 0;
+  padding: 5px 0 5px 5px;
+  cursor: pointer;
+}
+
+#input-group-0 label {
+  position: relative;
+  top: 0;
+}
+
+#checkboxes-4 .custom-control-label {
+  opacity: .1;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    height: 200px;
+  }
+
+  .logo::before {
+    background-size: cover;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .form {
+    height: auto;
+    overflow: auto;
+    padding-bottom: 60px;
+  }
+
+  .form .titulo {
+    font-size: 48px;
+  }
+
+  .form .titulo span {
+    font-size: 36px;
+  }
+
+  .form .content {
+    position: relative;
+    top: initial;
+    right: initial;
+    bottom: initial;
+    left: initial;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+  }
+}

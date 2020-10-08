@@ -1,0 +1,5 @@
+mutation authenticateAndCreateUserTwitter($input: UserTwitterAuthenticationInput!) {
+  authenticateAndCreateUserTwitter(input: $input) { 
+    id
+  }
+}

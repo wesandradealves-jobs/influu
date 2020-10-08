@@ -1,0 +1,5 @@
+mutation associateInfluencerToCampaign($input: AssociateInfluencerToCampaignInput!) {
+  associateInfluencerToCampaign(input: $input) {
+    id
+  }
+}

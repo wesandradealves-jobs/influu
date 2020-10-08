@@ -1,0 +1,35 @@
+query me {
+  me {
+    id
+    name
+    email
+    avatar
+    info {
+      cpf
+      rg
+      birthDate
+      civilStatus
+      gender
+      schooling
+      phone
+      nickname
+      bio
+      phoneValidated
+    }
+    address {
+      country
+      postcode
+      state
+      city
+      street
+      number
+      neighborhood
+      additionalInfo
+    }
+    tags {
+      id
+      name
+      slug
+    }
+  }
+}

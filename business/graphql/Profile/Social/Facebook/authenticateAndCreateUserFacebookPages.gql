@@ -1,0 +1,5 @@
+mutation authenticateAndCreateUserFacebookPages($input: UserFacebookAuthenticationInput!) {
+  authenticateAndCreateUserFacebookPages(input: $input) { 
+    id
+  }
+}

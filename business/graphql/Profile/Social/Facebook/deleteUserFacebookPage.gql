@@ -1,0 +1,5 @@
+mutation deleteUserFacebookPage($facebookPageId: String!) {
+  deleteUserFacebookPage (facebookPageId: $facebookPageId) { 
+    deletedAt
+  }
+}

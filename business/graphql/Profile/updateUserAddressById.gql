@@ -1,0 +1,5 @@
+mutation updateUserAddressById($input: UserAddressByIdInput!) {
+  updateUserAddressById(input: $input) {
+    country
+  }
+}

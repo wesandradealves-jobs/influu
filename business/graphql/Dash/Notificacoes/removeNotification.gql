@@ -1,0 +1,7 @@
+mutation removeNotification(
+  $input: RemoveNotificationInputType!
+) {
+  removeNotification(input: $input) {
+    id
+  }
+}

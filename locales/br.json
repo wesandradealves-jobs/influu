@@ -1,0 +1,78 @@
+{
+  "menu": {
+    "dashboard": "Dashboard",
+    "notifications": "Notificações",
+    "campaigns": "Campanhas",
+    "profile": "Perfil",
+    "financial": "Financeiro"
+  },
+  "links": {
+    "br": "Versão Brasileira",
+    "en": "Versão Inglesa"
+  },
+  "campaigns": {
+    "suggested": "Campanhas sugeridas",
+    "deliveryStatus": {
+      "backlog": "Entregas",
+      "validating": "Validação",
+      "approved": "Aprovados"
+    }
+  },
+  "nav": {
+    "logout": "Sair"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados"
+  },
+  "form": {
+    "email": "e-mail",
+    "company": "empresa",
+    "isAgency": "Agência de Publicidade/Marketing?",
+    "nameResponsible": "nome do responsável",
+    "cpfResponsible": "cpf do responsável",
+    "phones": "telefone",
+    "password": "senha",
+    "loading": "carregando...",
+    "name": "nome"
+  },
+  "invalid": {
+    "empresa": "Nome precisa ter mais de 3 letras!",
+    "nameResponsible": "Nome precisa ter mais de 3 letras!",
+    "cpfResponsible": "CPF precisa ter 11 caracteres!",
+    "phones": "Telefone precisa ter pelo menos 8 caracteres!",    
+    "email": "E-mail inválido!",
+    "name": "Nome precisa ter mais de 3 letras!"
+  },
+  "login": {
+    "welcome": "Bem vindo(a)",
+    "letsLogin": "vamos entrar?",
+    "toConnect": "Para conectar",
+    "typeCredentials": "digite seu e-mail e sua senha",
+    "forgotPassword": "esqueceu a senha?",
+    "noAccount": "não tem conta?",
+    "back": "Voltar",
+    "login": "Entrar"
+  },
+  "recoverPassword": {
+    "recoverPass": "Recuperar senha",
+    "typeEmail": "Insira o endereço de email para recuperar a sua senha",
+    "recover": "Recuperar"
+  },
+  "resetPassword": {
+    "resetPass": "Recuperar senha",
+    "typeNewPassword": "Insira sua nova senha",
+    "newPassword": "nova senha",
+    "confirmPassword": "confirmar nova senha",
+    "confirm": "Confirmar"
+  },
+  "register": {
+    "toRegister": "Para se cadastrar",
+    "typeData": "digite seus dados abaixo",
+    "register": "Cadastrar"
+  },
+  "validate": {
+    "title": "Validação de credenciais",
+    "typeEmail": "Digite seu email",
+    "confirm": "Validar"
+  }
+}

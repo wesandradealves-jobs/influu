@@ -1,0 +1,5 @@
+mutation deleteUserYoutubeChannel($youtubeChannelId: String!) {
+  deleteUserYoutubeChannel(youtubeChannelId: $youtubeChannelId) {
+    id
+  }
+}

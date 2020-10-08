@@ -1,0 +1,10 @@
+query getBannersPaginated($input: GetBannersPaginatedInput!) {
+  getBannersPaginated(input: $input) {
+    data {
+      image {
+        id
+        url
+      }
+    }
+  }
+}

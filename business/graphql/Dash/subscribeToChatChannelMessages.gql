@@ -1,0 +1,16 @@
+subscription subscribeToChatChannelMessages(
+  $input: SubscribeChatChannelMessagesInput!
+) {
+  subscribeToChatChannelMessages(input: $input) {
+    id
+    content
+    createdAt
+    author {
+      name
+    }
+    attachment {
+      id
+      url
+    }
+  }
+}

@@ -1,0 +1,20 @@
+query getUserChatChannelsPaginated(
+  $input: GetUserChatChannelsPaginatedInput!
+) {
+  getUserChatChannelsPaginated(input: $input) {
+    data {
+      id
+      author {
+        name
+        avatar
+      }
+      chatChannel {
+        id
+      }
+      lastChatChannelMessage {
+        content
+        createdAt
+      }
+    }
+  }
+}

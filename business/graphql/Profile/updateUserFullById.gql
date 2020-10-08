@@ -1,0 +1,15 @@
+mutation updateUserFullById(
+  $input: UserInfoByIdInput!,
+  $input2: UpdateUserByIdInput!,
+  $input3: UserAddressByIdInput!
+) {
+  updateUserInfoById(input: $input) {
+    nickname
+  }
+  updateUserById(input: $input2) {
+    id
+  }
+  updateUserAddressById(input: $input3) {
+    country
+  }
+}
